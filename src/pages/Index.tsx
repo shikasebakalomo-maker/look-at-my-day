@@ -3,6 +3,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Eye } from "lucide-react";
 import achievementImage from "@/assets/achievement.jpg";
+import achievementVideo from "@/assets/achievement-video.mp4";
 
 const Index = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,11 +39,19 @@ const Index = () => {
             </Button>
           </DialogTrigger>
           <DialogContent className="max-w-3xl p-2 bg-card border-2 border-gold/30">
-            <img 
-              src={achievementImage} 
-              alt="Achievement moment - receiving an award at a graduation ceremony"
-              className="w-full h-auto rounded-lg"
-            />
+            <div className="space-y-4">
+              <video 
+                src={achievementVideo}
+                controls
+                autoPlay
+                className="w-full h-auto rounded-lg"
+              />
+              <img 
+                src={achievementImage} 
+                alt="Achievement moment - receiving an award at a graduation ceremony"
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
           </DialogContent>
         </Dialog>
 
