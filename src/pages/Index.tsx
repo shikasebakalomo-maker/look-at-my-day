@@ -88,9 +88,7 @@ import {buttons} from "youtube"
 </div>
 
 </body>
-</html>
-
-  body {
+</html> body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #111;
@@ -116,6 +114,16 @@ h1 {
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+}
 
+.gallery img {
+  height: 80vh;
+  border-radius: 12px;
+  }
 
 
