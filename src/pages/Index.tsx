@@ -70,7 +70,25 @@ const Index = () => {
 
 export default Index;
 import {buttons} from "youtube"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>My Image Gallery</h1>
+
+<div class="gallery">
+  <img src="images/img1.jpg" alt="Image 1">
+  <img src="images/img2.jpg" alt="Image 2">
+  <img src="images/img3.jpg" alt="Image 3">
+</div>
+
+</body>
+</html>
 
 
 
