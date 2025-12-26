@@ -19,12 +19,12 @@ const Index = () => {
 
         {/* Main heading */}
         <h1 className="text-4xl md:text-5xl font-bold text-foreground tracking-tight animate-float">
-          Look at what I was doing
+          Look at what I was doing kalomo shikaseba 
         </h1>
 
         {/* Subtext */}
         <p className="text-muted-foreground text-lg">
-          A proud moment captured
+        KALOMO WANKUMBU SHIKASEBA 
         </p>
 
         {/* Open button with dialog */}
